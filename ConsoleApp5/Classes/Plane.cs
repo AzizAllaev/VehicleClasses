@@ -7,11 +7,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp5.Classes
 {
-	internal class Plane : Vehicle, Intefaces.IName, Intefaces.IRegistrationNumber 
+	internal class Plane : Vehicle, Intefaces.ISetAmoutOfSeats, Intefaces.ISetSpeed
 	{
-		/// <summary>
-		/// Класс Plane(пассажирский самолет)
-		/// </summary>
+		
 
 		// У самолёта есть два важных свойства максимальная грузоподъёмность и номер рейса
 		private int _Capacity;
@@ -46,13 +44,13 @@ namespace ConsoleApp5.Classes
 		//---------------------------------------------------
 
 
-		public void SetRegistrationNumber(string number)
+		public void SetMaxSpeed(int Speed)
 		{
-			RegistrationNumber = number;
+			MaxSpeed = Speed;
 		}
-		public void SetName(string name)
+		public void SetAmoutOfSeats(int seats)
 		{
-			Name = name;
+			Seats = seats;
 		}
 	}
 }

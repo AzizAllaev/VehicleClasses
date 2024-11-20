@@ -1,39 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="ConsoleApp5.Classes.Plane">
-    <Position X="5.5" Y="3.25" Width="1.5" />
+    <Position X="5.5" Y="3.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAQAAAAAAAAAAAAAAAACACAAAAAAAAAAAAEAAAA=</HashCode>
+      <HashCode>AAAAAAQEAAAAAAAAAAAAAAACACAAAAAAAAAACAEAAAA=</HashCode>
       <FileName>Classes\Plane.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="ConsoleApp5.Classes.Vehicle">
-    <Position X="5.5" Y="1.25" Width="1.5" />
+    <Position X="5.5" Y="1.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAgAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Classes\Vehicle.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ConsoleApp5.Classes.Car">
-    <Position X="3.25" Y="3.25" Width="1.5" />
+    <Position X="3.25" Y="3.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>QAAAAAAAAAAAAAAAKAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAEAAAAAAAAIAAAAAAAAAAAAAAAAAAQCAAAAAA=</HashCode>
       <FileName>Classes\Car.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
-  <Interface Name="ConsoleApp5.Intefaces.IName">
-    <Position X="7.5" Y="1.25" Width="1.5" />
+  <Interface Name="ConsoleApp5.Intefaces.ISetSpeed">
+    <Position X="7.75" Y="1" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAQAAAAAA=</HashCode>
-      <FileName>Intefaces\IName.cs</FileName>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Intefaces\ISetSpeed.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="ConsoleApp5.Intefaces.IRegistrationNumber">
-    <Position X="3.5" Y="1.25" Width="1.5" />
+  <Interface Name="ConsoleApp5.Intefaces.ISetAmoutOfSeats">
+    <Position X="3.25" Y="1" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAEAAAAAAAAAAAAA=</HashCode>
-      <FileName>Intefaces\IRegistrationNumber.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Intefaces\ISetAmoutOfSeats.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Font Name="Segoe UI" Size="9" />

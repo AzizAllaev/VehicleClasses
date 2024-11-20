@@ -9,16 +9,21 @@ namespace ConsoleApp5.Classes
 	public abstract class Vehicle
 	{
 		/// <summary>
-		/// Базовый класс Vehicle(Транспортное средство)
+		/// Базовый абстрактный класс описывающий устройство для 
+		/// Передвижения людей
 		/// </summary>
 
 		//--------------------------------------------------------------------
 
-		// Любое транспортное средство имеет 2 свойства такие как: имя, регистрацонный номер
-		public string RegistrationNumber {  get; set; }
-		public string Name {  get; set; }
 
-		
+		public int MaxSpeed { get; set; }
+
+		public int Seats { get; set; }
+
+
+
+
+
 	
 	}
 }

@@ -6,16 +6,15 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp5.Classes
 {
-	public class Car : Vehicle, Intefaces.IName, Intefaces.IRegistrationNumber
+	public class Car : Vehicle, Intefaces.ISetSpeed, Intefaces.ISetAmoutOfSeats
 	{
 		/// <summary>
 		/// Класс автомобиль 
 		/// </summary>
 
+		// Лошадинные силы
 		private int _HorsePower;
-		private int _AmoutOfSeats;
 
-		// Имеет два свойства Л/С, и количество посадочных мест
 
 		//--------------------------------------------
 
@@ -31,25 +30,20 @@ namespace ConsoleApp5.Classes
 				_HorsePower = value;
 			}
 		}
-		public int AmoutOfSeats
+
+
+
+		
+		public void SetMaxSpeed(int Speed)
 		{
-			get
-			{
-				return _AmoutOfSeats;
-			}
-			set
-			{
-				_AmoutOfSeats = value;
-			}
+			MaxSpeed = Speed;
+		}
+		public void SetAmoutOfSeats(int seats)
+		{
+			Seats = seats;
 		}
 
-		public void SetName(string name)
-		{
-			Name = name;
-		}
-		public void SetRegistrationNumber(string number)
-		{
-			RegistrationNumber = number;
-		}
+		
+
 	}
 }

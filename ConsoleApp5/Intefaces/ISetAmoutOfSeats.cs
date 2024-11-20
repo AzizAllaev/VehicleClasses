@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp5.Intefaces
 {
-	internal interface IRegistrationNumber
+	internal interface ISetAmoutOfSeats
 	{
-		public void SetRegistrationNumber(string number);
+		public void SetAmoutOfSeats(int number);
 	}
 }

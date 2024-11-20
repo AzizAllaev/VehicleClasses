@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp5.Intefaces
 {
-	public interface IName
+	public interface ISetSpeed
 	{
-		public void SetName(string name);
+		public void SetMaxSpeed(int speed);
 	}
 }
