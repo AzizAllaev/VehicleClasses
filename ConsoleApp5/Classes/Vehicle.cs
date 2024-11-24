@@ -6,24 +6,19 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp5.Classes
 {
+	/// <summary>
+	/// Представляет транспортное средство 
+	/// </summary>
 	public abstract class Vehicle
 	{
 		/// <summary>
-		/// Базовый абстрактный класс описывающий устройство для 
-		/// Передвижения людей
+		/// Максимальная скорость движения
 		/// </summary>
-
-		//--------------------------------------------------------------------
-
-
 		public int MaxSpeed { get; set; }
-
+		
+		/// <summary>
+		/// Количевство посадочных мест
+		/// </summary>
 		public int Seats { get; set; }
-
-
-
-
-
-	
 	}
 }

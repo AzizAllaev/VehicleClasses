@@ -6,19 +6,16 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp5.Classes
 {
+	/// <summary>
+	/// Представляет автомобиль
+	/// </summary>
 	public class Car : Vehicle, Intefaces.ISetSpeed, Intefaces.ISetAmoutOfSeats
 	{
 		/// <summary>
-		/// Класс автомобиль 
+		/// Мощность двигателя
 		/// </summary>
-
-		// Лошадинные силы
 		private int _HorsePower;
-
-
-		//--------------------------------------------
-
-		// Инкапсуляция 
+		
 		public int HorsePower
 		{
 			get
@@ -31,19 +28,21 @@ namespace ConsoleApp5.Classes
 			}
 		}
 
-
-
-		
+		/// <summary>
+		/// Присваивание свойства максимальной скорости 
+		/// </summary>
+		/// <param name="Speed"></param>
 		public void SetMaxSpeed(int Speed)
 		{
 			MaxSpeed = Speed;
 		}
+		/// <summary>
+		/// Присваивание свойства количества посадочных мест
+		/// </summary>
+		/// <param name="seats"></param>
 		public void SetAmoutOfSeats(int seats)
 		{
 			Seats = seats;
 		}
-
-		
-
 	}
 }

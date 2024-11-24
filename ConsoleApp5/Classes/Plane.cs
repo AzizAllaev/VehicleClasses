@@ -7,27 +7,16 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp5.Classes
 {
+	/// <summary>
+	/// Представляет гражданский пассажрский самолёт
+	/// </summary>
 	internal class Plane : Vehicle, Intefaces.ISetAmoutOfSeats, Intefaces.ISetSpeed
 	{
-		
-
-		// У самолёта есть два важных свойства максимальная грузоподъёмность и номер рейса
-		private int _Capacity;
+		/// <summary>
+		/// Номер рейса 
+		/// </summary>
 		private string _FlightNumber;
-		//---------------------------------------------------
 
-		// Инкапсуляция
-		public int Capacity
-		{
-			get
-			{
-				return _Capacity;
-			}
-			set
-			{
-				_Capacity = value;
-			}
-		}
 		public string FlightNumber
 		{
 			get
@@ -39,9 +28,6 @@ namespace ConsoleApp5.Classes
 				_FlightNumber = value;
 			}
 		}
-
-
-		//---------------------------------------------------
 
 
 		public void SetMaxSpeed(int Speed)
